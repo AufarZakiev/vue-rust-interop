@@ -15,7 +15,7 @@ export default defineConfig({
   base: "/vue-rust-interop",
   build: {
     rollupOptions: {
-      external: '/dist/rust/vue-rust-interop.js',
+      external: '/dist/rust/rust_scripter.js',
       output: {
         paths: {
           '/dist/rust/rust_scripter.js': '/vue-rust-interop/rust/rust_scripter.js'
