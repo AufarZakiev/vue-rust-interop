@@ -12,13 +12,13 @@ export default defineConfig({
     mdPlugin({ mode: [Mode.VUE] }),
     quasar()
   ],
-  base: "/rust_scripter",
+  base: "/vue-rust-interop",
   build: {
     rollupOptions: {
-      external: '/dist/rust/rust_scripter.js',
+      external: '/dist/rust/vue-rust-interop.js',
       output: {
         paths: {
-          '/dist/rust/rust_scripter.js': '/rust_scripter/rust/rust_scripter.js'
+          '/dist/rust/rust_scripter.js': '/vue-rust-interop/rust/rust_scripter.js'
         }
       }
     },

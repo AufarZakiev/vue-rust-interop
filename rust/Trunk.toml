@@ -3,4 +3,4 @@ target = "index.html"
 dist = "../dist/rust"
 filehash = false
 inject_scripts = false
-public_url = "/rust_scripter"
+public_url = "/vue-rust-interop/"

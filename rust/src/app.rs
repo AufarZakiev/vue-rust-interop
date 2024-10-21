@@ -596,7 +596,10 @@ fn powered_by_egui_and_eframe(ui: &mut egui::Ui) {
         ui.label("Powered by");
         ui.hyperlink_to("egui. ", "https://github.com/emilk/egui");
         ui.label("Source code");
-        ui.hyperlink_to("on GitHub", "https://github.com/AufarZakiev/rust_scripter");
+        ui.hyperlink_to(
+            "on GitHub",
+            "https://github.com/AufarZakiev/vue-rust-interop",
+        );
         ui.label(".")
     });
 }

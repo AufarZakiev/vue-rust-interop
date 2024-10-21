@@ -18,4 +18,4 @@ Vue's ecosystem (such as Quasar) could be used in full power.
 
 #### Demo
 
-Deployed to [Github pages](https://aufarzakiev.github.io/rust_scripter/)
+Deployed to [Github pages](https://aufarzakiev.github.io/vue-rust-interop/)
